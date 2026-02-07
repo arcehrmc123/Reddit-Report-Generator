@@ -1,0 +1,272 @@
+{
+  "categories": [
+    {
+      "core_category": "Content Analysis",
+      "axial_codings": [
+        {
+          "axial_coding": "1.1 Content Topics and Themes",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.1.1 Topic Distribution",
+              "definition": "Analysis of the distribution of topics in user posts and comments. Identifies the main subjects discussed and their frequency."
+            },
+            {
+              "secondary_coding": "1.1.2 Keyword Analysis",
+              "definition": "Extraction and analysis of keywords from user content to identify key interests and focus areas."
+            },
+            {
+              "secondary_coding": "1.1.3 Content Quality",
+              "definition": "Assessment of content quality based on factors such as length, complexity, relevance, and engagement metrics."
+            }
+          ]
+        },
+        {
+          "axial_coding": "1.2 Sentiment and Tone",
+          "secondary_codings": [
+            {
+              "secondary_coding": "1.2.1 Overall Sentiment",
+              "definition": "Analysis of overall sentiment expressed in user content (positive, negative, neutral)."
+            },
+            {
+              "secondary_coding": "1.2.2 Sentiment Variability",
+              "definition": "Assessment of how sentiment varies across different posts, comments, and topics."
+            },
+            {
+              "secondary_coding": "1.2.3 Tone Analysis",
+              "definition": "Identification of the tone used in communication (formal, informal, aggressive, friendly, etc.)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "User Behavior",
+      "axial_codings": [
+        {
+          "axial_coding": "2.1 Activity Patterns",
+          "secondary_codings": [
+            {
+              "secondary_coding": "2.1.1 Posting Frequency",
+              "definition": "Analysis of how often the user posts content to the subreddit."
+            },
+            {
+              "secondary_coding": "2.1.2 Commenting Frequency",
+              "definition": "Analysis of how often the user comments on other users' posts."
+            },
+            {
+              "secondary_coding": "2.1.3 Activity Consistency",
+              "definition": "Assessment of consistency in user activity patterns over time."
+            }
+          ]
+        },
+        {
+          "axial_coding": "2.2 Engagement Metrics",
+          "secondary_codings": [
+            {
+              "secondary_coding": "2.2.1 Karma Analysis",
+              "definition": "Analysis of total karma and karma distribution between posts and comments."
+            },
+            {
+              "secondary_coding": "2.2.2 Post Performance",
+              "definition": "Assessment of post performance based on scores, comments, and engagement rates."
+            },
+            {
+              "secondary_coding": "2.2.3 Comment Performance",
+              "definition": "Assessment of comment performance based on scores and engagement metrics."
+            }
+          ]
+        },
+        {
+          "axial_coding": "2.3 Interaction Patterns",
+          "secondary_codings": [
+            {
+              "secondary_coding": "2.3.1 Response Rate",
+              "definition": "Analysis of how quickly the user responds to comments on their posts."
+            },
+            {
+              "secondary_coding": "2.3.2 Interaction Style",
+              "definition": "Assessment of interaction style (e.g., asking questions, providing answers, debating, etc.)."
+            },
+            {
+              "secondary_coding": "2.3.3 Community Engagement",
+              "definition": "Analysis of the user's engagement with other members of the subreddit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Community Impact",
+      "axial_codings": [
+        {
+          "axial_coding": "3.1 Influence and Reputation",
+          "secondary_codings": [
+            {
+              "secondary_coding": "3.1.1 Karma Rank",
+              "definition": "Position of the user in terms of karma within the subreddit community."
+            },
+            {
+              "secondary_coding": "3.1.2 Content Influence",
+              "definition": "Analysis of how user content influences community discussions and engagement."
+            },
+            {
+              "secondary_coding": "3.1.3 Community Recognition",
+              "definition": "Assessment of how well the user is recognized within the subreddit community."
+            }
+          ]
+        },
+        {
+          "axial_coding": "3.2 Contribution Analysis",
+          "secondary_codings": [
+            {
+              "secondary_coding": "3.2.1 Content Contribution",
+              "definition": "Analysis of the quantity and quality of content contributed by the user."
+            },
+            {
+              "secondary_coding": "3.2.2 Discussion Leadership",
+              "definition": "Assessment of the user's role in leading and shaping community discussions."
+            },
+            {
+              "secondary_coding": "3.2.3 Value Added",
+              "definition": "Evaluation of the value the user brings to the subreddit community through their contributions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Network Analysis",
+      "axial_codings": [
+        {
+          "axial_coding": "4.1 Connection Patterns",
+          "secondary_codings": [
+            {
+              "secondary_coding": "4.1.1 Interaction Network",
+              "definition": "Analysis of the user's interaction network with other subreddit members."
+            },
+            {
+              "secondary_coding": "4.1.2 Key Connections",
+              "definition": "Identification of the most frequent and important connections the user has within the community."
+            },
+            {
+              "secondary_coding": "4.1.3 Community Structure",
+              "definition": "Analysis of the user's position within the overall subreddit community structure."
+            }
+          ]
+        },
+        {
+          "axial_coding": "4.2 Influence Networks",
+          "secondary_codings": [
+            {
+              "secondary_coding": "4.2.1 Influence Pathways",
+              "definition": "Analysis of how the user's influence spreads through the subreddit community."
+            },
+            {
+              "secondary_coding": "4.2.2 Opinion Leadership",
+              "definition": "Assessment of the user's role as an opinion leader within the community."
+            },
+            {
+              "secondary_coding": "4.2.3 Information Flow",
+              "definition": "Analysis of information flow patterns involving the user in community discussions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Comparison and Benchmarking",
+      "axial_codings": [
+        {
+          "axial_coding": "5.1 Community Comparison",
+          "secondary_codings": [
+            {
+              "secondary_coding": "5.1.1 Activity Comparison",
+              "definition": "Comparison of user activity levels with community averages."
+            },
+            {
+              "secondary_coding": "5.1.2 Engagement Comparison",
+              "definition": "Comparison of user engagement metrics with community averages."
+            },
+            {
+              "secondary_coding": "5.1.3 Influence Comparison",
+              "definition": "Comparison of user influence with community norms and standards."
+            }
+          ]
+        },
+        {
+          "axial_coding": "5.2 Performance Benchmarking",
+          "secondary_codings": [
+            {
+              "secondary_coding": "5.2.1 Content Performance",
+              "definition": "Benchmarking user content performance against community standards."
+            },
+            {
+              "secondary_coding": "5.2.2 Interaction Effectiveness",
+              "definition": "Assessment of how effective the user is at interacting with the community."
+            },
+            {
+              "secondary_coding": "5.2.3 Contribution Impact",
+              "definition": "Evaluation of the impact of the user's contributions relative to others in the community."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "core_category": "Recommendations and Improvements",
+      "axial_codings": [
+        {
+          "axial_coding": "6.1 Strengths",
+          "secondary_codings": [
+            {
+              "secondary_coding": "6.1.1 Key Strengths",
+              "definition": "Identification of the user's main strengths in their subreddit participation."
+            },
+            {
+              "secondary_coding": "6.1.2 Successful Strategies",
+              "definition": "Analysis of strategies that have worked well for the user in engaging with the community."
+            },
+            {
+              "secondary_coding": "6.1.3 Positive Impact",
+              "definition": "Assessment of the positive impact the user has had on the community."
+            }
+          ]
+        },
+        {
+          "axial_coding": "6.2 Areas for Improvement",
+          "secondary_codings": [
+            {
+              "secondary_coding": "6.2.1 Weaknesses",
+              "definition": "Identification of areas where the user's participation could be improved."
+            },
+            {
+              "secondary_coding": "6.2.2 Challenges",
+              "definition": "Analysis of challenges the user faces in engaging with the community."
+            },
+            {
+              "secondary_coding": "6.2.3 Growth Opportunities",
+              "definition": "Assessment of opportunities for the user to grow and improve their community participation."
+            }
+          ]
+        },
+        {
+          "axial_coding": "6.3 Recommendations",
+          "secondary_codings": [
+            {
+              "secondary_coding": "6.3.1 Actionable Recommendations",
+              "definition": "Specific, actionable recommendations for improving the user's community participation."
+            },
+            {
+              "secondary_coding": "6.3.2 Engagement Strategies",
+              "definition": "Strategies for increasing engagement and impact within the subreddit."
+            },
+            {
+              "secondary_coding": "6.3.3 Performance Optimization",
+              "definition": "Recommendations for optimizing content performance and interaction effectiveness."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

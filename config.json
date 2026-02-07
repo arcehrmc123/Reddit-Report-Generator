@@ -1,0 +1,9 @@
+{
+  "users": [
+    "example_user_1",
+    "example_user_2"
+  ],
+  "communities": [
+    "r_example_community"
+  ]
+}
