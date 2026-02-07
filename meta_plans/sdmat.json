@@ -1,0 +1,62 @@
+{
+    "perspectives": [
+        {
+            "name": "Content Analysis & Sentiment",
+            "description": "Analyzes the textual substance of posts and comments, focusing on topics, language patterns, and emotional tone.",
+            "prompt": "Analyze the Reddit user 'sdmat' by focusing on the content they produce. First, use the 'get_user_activity_keywords' tool to extract the top 10 keywords and identify the dominant themes and recurring topics. Next, use the 'get_user_activity_sentiment' tool to assess the overall emotional tone of their contributions. Combine these insights to describe the user's communication style: Are they formal or casual? Positive or critical? Ensure you ground your analysis in the specific keyword frequencies and sentiment scores returned by the tools, distinguishing between the sentiment in their posts versus their comments.",
+            "tool_suggestions": [
+                "get_user_activity_keywords",
+                "get_user_activity_sentiment",
+                "get_user_post_activity",
+                "get_user_comment_activity"
+            ],
+            "tips": [
+                "Compare the top keywords in posts against comments to see if the user initiates different topics than they respond to.",
+                "Look for anomalies in sentiment¡ªdoes high karma correlate with positive or negative sentiment?"
+            ]
+        },
+        {
+            "name": "User Behavior & Activity Metrics",
+            "description": "Examines quantitative activity patterns, including frequency, posting ratios, and engagement consistency.",
+            "prompt": "Evaluate the behavioral patterns of user 'sdmat'. Use the 'get_user_total_activity_count' to establish a baseline for their overall volume. Utilize the 'get_user_post_comment_ratio' to determine if they act primarily as a content creator (posts) or a community discussant (comments). Retrieve their post and comment activity lists to analyze the density of their contributions over time. Based on this data, categorize the user's activity level (e.g., 'Lurker', 'Casual User', 'Power User') and provide evidence from the ratio and total counts to support this classification.",
+            "tool_suggestions": [
+                "get_user_total_activity_count",
+                "get_user_post_comment_ratio",
+                "get_user_post_activity",
+                "get_user_comment_activity"
+            ],
+            "tips": [
+                "A high post/comment ratio suggests a desire to initiate discussion, while a low ratio suggests a desire to react to others.",
+                "Consider the total activity count in the context of the community's overall size if available."
+            ]
+        },
+        {
+            "name": "Reputation & Impact Assessment",
+            "description": "Measures the user's influence and standing within the community through karma analysis and top-performing content.",
+            "prompt": "Assess the impact and reputation of user 'sdmat'. Use the 'get_user_total_karma' tool to quantify their overall standing. To understand the drivers of their reputation, use 'get_user_top_posts' and 'get_user_top_comments' to isolate their most successful contributions. Analyze these top items to identify commonalities: Do they provide information, humor, or specific expertise? Determine if the user's influence is driven by a few viral hits or consistent community approval. Report on the relationship between their activity volume and their karma score.",
+            "tool_suggestions": [
+                "get_user_total_karma",
+                "get_user_top_posts",
+                "get_user_top_comments"
+            ],
+            "tips": [
+                "Differentiate between Post Karma and Comment Karma; high Post Karma implies thought leadership, while high Comment Karma implies helpfulness or wit.",
+                "Examine the titles of top posts to see if 'sdmat' succeeds in 'baiting' engagement or providing value."
+            ]
+        },
+        {
+            "name": "Network & Community Structure",
+            "description": "Situates the user within the broader community context, analyzing comparative statistics and community health.",
+            "prompt": "Contextualize user 'sdmat' within the community structure. Use 'get_community_overall_stats' to understand the general activity level of the subreddit. Use 'get_community_top_authors' to see where 'sdmat' ranks among the most active contributors. Is the user a peripheral participant or a central hub in the network? Additionally, use 'get_community_post_frequency' to understand the temporal rhythm of the community and discuss how the user's behavior fits into or deviates from this pattern. Conclude on the user's role relative to the community's power users.",
+            "tool_suggestions": [
+                "get_community_overall_stats",
+                "get_community_top_authors",
+                "get_community_post_frequency"
+            ],
+            "tips": [
+                "If 'sdmat' appears in the top authors list, they are a key node in this specific community network.",
+                "Compare the community's average frequency with the user's specific activity to identify if they are 'always on' or 'event-driven'."
+            ]
+        }
+    ]
+}
